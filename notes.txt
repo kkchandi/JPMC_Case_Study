@@ -1,0 +1,39 @@
+
+Q: For question 8, what does it mean by "interpretable"
+
+A: Very often as a quant or data scientist, we need to explain our model and model results to the business stakeholders who might not have a technical background. Consider to use
+
+ 
+
+Q: Question 4 - Correlation
+
+A: look at correlation between stock, which is helpful for modeling
+
+ 
+
+Q: business use case of LSTM
+
+A: E.g. model volatility or volume data
+
+ 
+
+Q: missing data/anomaly in time series
+
+A: investigate the reason - case by case; for example, removing anomaly if it's one off; linear interpolation; etc
+
+ 
+
+Q: Can we consider including special events like covid period
+
+A: Yes this can be a bonus challenge - a model that performs well in a "normal" period might fail in another period where extreme events happens; consider out-of-sample testing in certain scenarios.
+
+ 
+
+ 
+
+Q: Can we incorporate news feature
+
+A: Yes - e.g. model special events as "dummy" variable - 1 for positive news, -1 for negative news etc.
+
+ 
+
